@@ -19,7 +19,7 @@ async function fetchCharacters() {
 
 // Función para mostrar personajes en el HTML
 function displayCharacters(personajes) {
-  characterList.innerHTML = ""; // Limpiar contenido anterior
+  characterList.innerHTML = ""; 
   personajes.forEach((personaje) => {
     const card = document.createElement("div");
     card.className = "card";
